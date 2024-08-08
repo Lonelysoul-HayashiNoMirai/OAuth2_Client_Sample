@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          oauth2-client-sample:
+            token-uri: "http://localhost:8082/oauth2/token"
+
+authorization-resource-server:
+  base-url: "http://localhost:8082"
+
+server:
+  port: "8085"
